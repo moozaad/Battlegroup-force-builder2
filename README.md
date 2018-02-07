@@ -1,5 +1,7 @@
-# Battlegroup-force-builder2
-Battlegroup (WWII wargame) Force Builder
+# Battlegroup Force Builder 2
+This is a reimagination of Greg Farrel's original work. Completely rewritten for easy maintainance and more focused around organisation view than unit cards with statistics.
+
+[Battlegroup](http://theplasticsoldiercompany.co.uk/index.php?main_page=index&cPath=70) (WWII wargame) Force Builder
 
 # TODO
 ## Books
