@@ -13,6 +13,9 @@ This is a reimagination of Greg Farrel's original work. Completely rewritten for
 * Blitzkrieg
 * Dispatch 1
 * Dispatch 2
+* Kursk
+* Wacht am rhein
+
 ## Features
 * Org view
 
