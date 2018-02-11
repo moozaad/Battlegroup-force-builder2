@@ -5,6 +5,8 @@ var points = 0;
 var battle_rating = 0;
 var restricted_units = 0;
 var unique_units = 0;
+var officers = 0;
+var scouts = 0;
 
 //section specific stats
 var fhq_count = 0;
