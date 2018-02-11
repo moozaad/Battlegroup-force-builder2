@@ -37,17 +37,3 @@ var de_ss_fhq = [
 
 ];
 
-var ca_3rd = [
-    {name: "", description: "", points: 0, battle_rating: 0, veterancy: "", restricted: 0, unique: 0, 
-     options: [
-        {name: "", points: 0, battle_rating: 0},
-        {name: "", points: 0, battle_rating: 0}]
-    },
-    
-    {name: "", description: "", points: 0, battle_rating: 0, veterancy: "", restricted: 0, unique: 0, 
-     options: [
-        {name: "", points: 0, battle_rating: 0},
-        {name: "", points: 0, battle_rating: 0}]
-    }
-];
-     
