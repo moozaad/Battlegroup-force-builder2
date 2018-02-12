@@ -1,1 +1,86 @@
+<html>
+<head>
+  <link type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css" rel="Stylesheet" />
+  <link type="text/css" href="css/bgb.css" rel="Stylesheet" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="j/bgb-core.js"></script>
 
+</head>
+<body>
+<h1>Battlegroup Organisation Chart</h1>
+<div id='breadcrumbs'></div>
+
+
+<div id='orgchart'>
+  <div id='stats' class='orgbox'>
+    <h2>Frontline assets</h2>
+    <p>Total Points: <span class='stats' id='totalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='totalbr'>0</span></p>
+    <p>Officers: <span class='stats' id='scouts'>0</span></p>
+    <p>Scouts: <span class='stats' id='officers'>0</span></p>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Forward Headquarters</h2>
+    <p>Total Points: <span class='stats' id='fhqtotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='fhqtotalbr'>0</span></p>
+    <select name='fhqselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Infantry</h2>
+    <p>Total Points: <span class='stats' id='inftotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='inftotalbr'>0</span></p>
+    <select name='infselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Tanks</h2>
+    <p>Total Points: <span class='stats' id='tankstotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='tankstotalbr'>0</span></p>
+    <select name='tanksselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Artillery</h2>
+    <p>Total Points: <span class='stats' id='arttotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='arttotalbr'>0</span></p>
+    <select name='artselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Defences</h2>
+    <p>Total Points: <span class='stats' id='deftotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='deftotalbr'>0</span></p>
+    <select name='defselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Reconnaissance Units</h2>
+    <p>Total Points: <span class='stats' id='recontotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='recontotalbr'>0</span></p>
+    <select name='reconselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Logistic Units</h2>
+    <p>Total Points: <span class='stats' id='logtotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='logtotalbr'>0</span></p>
+    <select name='logselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Engineer Units</h2>
+    <p>Total Points: <span class='stats' id='engtotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='engtotalbr'>0</span></p>
+    <select name='engselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Special Units</h2>
+    <p>Total Points: <span class='stats' id='specialtotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='specialtotalbr'>0</span></p>
+    <select name='specialselect'><option>none</option></select>
+  </div>
+  <div id='stats' class='orgbox'>
+    <h2>Additional Fire Support</h2>
+    <p>Total Points: <span class='stats' id='afstotalpoints'>0</span></p>
+    <p>Total BR: <span class='stats' id='afstotalbr'>0</span></p>
+    <select name='afsselect'><option>none</option></select>
+  </div>
+  
+  
+</div>
+
+</body>
