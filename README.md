@@ -17,7 +17,8 @@ This is a reimagination of Greg Farrel's original work. Completely rewritten for
 * Wacht am rhein
 
 ## Features
-* Org view
+* Clean organistion view for printing
+* Save/Load from URL
 
 # In Progress
 * Core rules hardback
