@@ -32,8 +32,6 @@ var de_ss_fhq = [
      options: [
         {name: "", points: 0, battle_rating: 0},
         {name: "", points: 0, battle_rating: 0}]
-    },
-    
-
+    }
 ];
 
