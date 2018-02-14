@@ -21,18 +21,21 @@ var book_forces = [
 
 
 var de_ss_fhq = [
-    {name: "",
+    {name: "Forward Headquarters",
      Section_name: "", //
      description: "",
-     unit_composition: "",
-     points: 0,
-     battle_rating: 0,
-     veterancy: "",
-     special_rules: "",
+     unit_composition: "3 men",
+     transport: "SdKfz 251/3",
+     points: 28,
+     battle_rating: 3,
+     veterancy: "regular",
+     special_rules: "Senior Officer, Artillery Spotter",
+     officer: 1,
+     scout: 0,
      restricted: 0,
-     unique: 0, 
+     unique: 1, 
      options: [
-        {name: "", points: 0, battle_rating: 0},
-        {name: "", points: 0, battle_rating: 0}]
+        {name: "Replace 3 men and transport with Panzer IV H", points: 28, battle_rating: 0},
+        {name: "Replace 3 men and transport with Panther A or G", points: 62, battle_rating: 0}]
     }
 ];
